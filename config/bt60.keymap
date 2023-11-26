@@ -33,7 +33,7 @@
 				&kp CLCK &trans &kp UP &trans &trans &kp HOME &trans &kp PSCRN &trans &trans &kp K_PP &trans &trans &bl BL_TOG
 				&trans    &kp LEFT &kp DOWN &kp RIGHT &kp DEL &kp END &trans &trans &kp INS &trans &trans  &trans   &rgb_ug RGB_TOG
 				&kp LSHFT &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans  &kp RSHFT
-				&kp LCTRL &kp LGUI  &kp LALT              &kp SPACE                            &trans   &trans   &reset &bootloader
+				&kp LCTRL &kp LGUI  &kp LALT              &kp SPACE                            &trans   &trans   &trans &bootloader
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
