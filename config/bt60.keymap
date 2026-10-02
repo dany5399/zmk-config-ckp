@@ -112,15 +112,15 @@
 	};
 	conditional_layers {
 		compatible = "zmk,conditional-layers";
-		raise_mac_condition = {
+		raise_mac_condition {
 			if-layers = <2 3>;
 			then-layer = <6>;
 		};
-		raise_cachy_condition = {
+		raise_cachy_condition {
 			if-layers = <2 4>;
 			then-layer = <7>;
 		};
-		raise_windows_condition = {
+		raise_windows_condition {
 			if-layers = <2 5>;
 			then-layer = <7>;
 		};
